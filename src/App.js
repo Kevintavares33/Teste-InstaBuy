@@ -1,6 +1,5 @@
 import React from 'react'
 import Home from './componets//Home'
-import Header from './componets/Header'
 
 
 
@@ -10,7 +9,7 @@ const App = () => {
   
     <div>
       <>
-      <Header/>
+     
       <Home/>
       </>
     </div>
