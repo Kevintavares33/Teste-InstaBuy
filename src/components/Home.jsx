@@ -36,15 +36,9 @@ const Home = () => {
     <div className="container">
       <Header />
       <Nav/>
-
-      <h2>Banners</h2>
       <BannerCarousel banners={banners} />
-
       <h2>Ofertas</h2>
       <ProductCarousel products={products} />
-
-     
-      <h2>Collection Items</h2>
       <CollectionItems collectionItems={collectionItems} />
     </div>
   );

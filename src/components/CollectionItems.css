@@ -2,11 +2,13 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
+   
   }
   
   .items {
     text-align: center;
     padding: 10px;
+    background-color:#fff;
   }
   
   .items img {
@@ -59,6 +61,10 @@
   }
   
   .carousel-margin {
-    margin-top: 20px; /* Espaçamento entre os carrosséis */
+    margin-top: 20px; 
   }
-  
+  .nome-produto{
+    font-family: 'Poppins',Verdana,sans-serif;
+    color: #757575;
+
+  }

@@ -1,19 +1,20 @@
-
 .header {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   padding: 10px;
+
 }
 
 .loc {
   background-color: #35a535;
+  width: 100%;
   color: #ffffff;
   padding: 5px;
   margin-bottom: 10px;
 }
 
-.nav {
+.logo-mercado-modelo{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +35,7 @@
 .mercado-modelo p {
   font-size: 16px;
   font-weight: bold;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 input[type="text"] {
@@ -63,4 +64,11 @@ button {
 
 button:not(:last-child) {
   margin-right: 10px;
+}
+
+button.my-list-button:hover,
+button.my-account-button:hover,
+button.cart-button:hover {
+  background-color: #dedede;
+  color: #fff;
 }

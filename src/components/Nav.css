@@ -71,3 +71,11 @@
   width: 24px;
   height: 22px;
 }
+button.inicio:hover,
+button.categorias:hover,
+button.ofertass:hover,
+button.kit-churrass:hover
+{
+  background-color: #dedede;
+  color: #fff;
+}

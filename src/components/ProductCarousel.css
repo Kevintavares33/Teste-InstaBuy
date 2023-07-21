@@ -39,6 +39,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    
   }
   
   .slick-prev {
@@ -57,4 +58,15 @@
   .slick-next:before {
     content: '\203A';
   }
-  
+  .price-promo{
+    color:#e91e63 ;
+  }
+  .price .old-price{
+    font-family: 'Poppins',Verdana,sans-serif;
+    font-weight: lighter;
+    
+  }
+  .carousel-item .nome-produto{
+    font-family: 'Poppins',Verdana,sans-serif;
+    color: #757575;
+}

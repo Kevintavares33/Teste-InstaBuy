@@ -9,7 +9,7 @@ const Header = () => {
         <p>Retirar em: Asa Norte, Campus Universitário Darcy Ribeiro Bloco A PMU I Sala AT 08/03 - AC UNB, Edificio CDT, Brasília - DF</p>
       </div>
       
-      <div className="nav">
+      <div className="logo-mercado-modelo">
         <div className="mercado-modelo">
           <img className="logo-mercado" src={Logo} alt="logo mercado" />
           <p>Supermercado <br/> Modelo</p>
@@ -19,9 +19,9 @@ const Header = () => {
       
         <div className="buttons">
           <a className='button' href="./">
-         <button><FaListUl/><span> Minha Lista</span></button>
-         <button><FaUser/><span> Minha Conta</span></button>
-         <button id="carrinho-icon"><FaCartShopping/><span> Carrinho</span></button>
+            <button className="my-list-button"><FaListUl/><span> Lista</span></button>
+            <button className="my-account-button"><FaUser/><span> Minha Conta</span></button>
+            <button className="cart-button" id="carrinho-icon"><FaCartShopping/><span> Carrinho</span></button>
           </a>
         </div>
       </div>

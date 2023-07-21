@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Poppins', 'sem serifa';
     width: 100%;
     min-height: 100vh;
-    background-color: #e1e1e1;
+    background-color: #f9f9f9;
     color: #000;
     display: flex;
     flex-direction: column;
