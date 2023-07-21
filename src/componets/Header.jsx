@@ -18,7 +18,7 @@ const Header = () => {
         <input type="text" placeholder="O que você Procura Hoje?" />
       
         <div className="buttons">
-          <a class='button' href="./">
+          <a className='button' href="./">
          <button><FaListUl/><span> Minha Lista</span></button>
          <button><FaUser/><span> Minha Conta</span></button>
          <button id="carrinho-icon"><FaCartShopping/><span> Carrinho</span></button>

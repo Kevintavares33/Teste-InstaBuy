@@ -1,32 +1,31 @@
-
-.carousel-container {
+.collection-items {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  .carousel-item {
+  .items {
     text-align: center;
     padding: 10px;
-    background-color: #ffff;
   }
   
-  .carousel-item img {
+  .items img {
     width: 136px;
     height: 160px;
     margin-bottom: 10px;
   }
   
-  .carousel-item h3 {
+  .items h3 {
     font-size: 16px;
     font-weight: bold;
   }
   
-  .carousel-item p {
+  .items p {
     font-size: 14px;
   }
   
-  .slick-prev, .slick-next {
+  .slick-prev,
+  .slick-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -49,12 +48,17 @@
     right: -40px;
   }
   
-  .slick-prev:before, .slick-next:before {
+  .slick-prev:before,
+  .slick-next:before {
     content: '\2039';
     font-size: 20px;
   }
   
   .slick-next:before {
     content: '\203A';
+  }
+  
+  .carousel-margin {
+    margin-top: 20px; /* Espaçamento entre os carrosséis */
   }
   

@@ -9,8 +9,7 @@ const App = () => {
   
     <div>
       <>
-     
-      <Home/>
+     <Home/>
       </>
     </div>
   )
