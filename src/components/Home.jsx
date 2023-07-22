@@ -4,6 +4,7 @@ import BannerCarousel from './BannerCarousel';
 import CollectionItems from './CollectionItems';
 import Header from './Header';
 import './Home.css';
+import Loc from './Loc';
 import Nav from './Nav';
 import ProductCarousel from './ProductCarousel';
 
@@ -33,11 +34,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container">
-      <Header />
+    <div className="container-elementos">
+      <Loc/>
+      <Header/>
       <Nav/>
       <BannerCarousel banners={banners} />
-      <h2>Ofertas</h2>
       <ProductCarousel products={products} />
       <CollectionItems collectionItems={collectionItems} />
     </div>

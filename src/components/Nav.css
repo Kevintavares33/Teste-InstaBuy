@@ -1,81 +1,52 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff;
+  margin-top: 2px;
+  display:flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 10px;
+  max-width: 900px;
+  margin-left: 150px;
+}
 
-.header {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    padding: 10px;
-  }
-  
-  .loc {
-    background-color: #35a535;
-    color: #ffffff;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffff;
-    margin-top: 2px;
-    
-  }
-  
-  .mercado-modelo {
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-  }
-  
-  .logo-mercado {
-    width: 64px;
-    height: 64px;
-    margin-right: 10px;
-  }
-  
-  .mercado-modelo p {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 1.2; 
-  }
-  
-  input[type="text"] {
-    padding: 8px;
-    font-size: 16px;
-  }
-  
-  .buttons {
-    display: flex;
-    align-items: center;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  button {
-    padding: 8px 15px;
-    font-size: 16px;
-    background-color: #ffff;
-    border: #fff;
- 
-  }
-  
-  button:not(:last-child) {
-    margin-right: 10px;
-  }
-    
-  .img-churras{
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: #ffff;
+  border: #fff;
+}
+
+button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.img-churras {
   width: 24px;
   height: 22px;
 }
+
 button.inicio:hover,
 button.categorias:hover,
 button.ofertass:hover,
-button.kit-churrass:hover
-{
+button.kit-churrass:hover {
   background-color: #dedede;
   color: #fff;
 }

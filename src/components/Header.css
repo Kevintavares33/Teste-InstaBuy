@@ -1,20 +1,13 @@
 .header {
-  display: flex;
+  display:flex;
   flex-direction: column;
   background-color: #ffffff;
   padding: 10px;
-
+  max-width: 900px;
+  margin-left: 150px;
 }
 
-.loc {
-  background-color: #35a535;
-  width: 100%;
-  color: #ffffff;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-.logo-mercado-modelo{
+.conteiner-mercado {
   display: flex;
   justify-content: space-between;
   align-items: center;

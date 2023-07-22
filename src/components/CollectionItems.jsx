@@ -72,8 +72,7 @@ const CollectionItems = ({ collectionItems }) => {
               <div className="items" key={product.id}>
                 <img
                   src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`}
-                  alt={product.name}
-                />
+                  alt={product.name}/>
                 <h3>{product.name}</h3>
                 <p>R$:{product.prices[0].price}</p>
               </div>
@@ -91,8 +90,7 @@ const CollectionItems = ({ collectionItems }) => {
                 <img src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`} alt={product.name}/>
                 <p className='price' >R$ {product.prices[0].price}</p>
                 <p className='nome-produto'>{product.name}</p>
-               
-              </div>
+               </div>
             ))}
           </Slider>
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
+import oferta from '..//assets/oferta.png';
 import './ProductCarousel.css';
 
 const ProductCarousel = ({ products }) => {
@@ -35,6 +36,7 @@ const ProductCarousel = ({ products }) => {
 
   return (
     <div className="carousel-container">
+         <h2 id='ofertas'><img id='oferta-img' src={oferta} alt='oferta-img'/> Ofertas</h2>
       <Slider {...settings}>
         {products.map((product) => (
           <div className="carousel-item" key={product.id}>
@@ -42,8 +44,7 @@ const ProductCarousel = ({ products }) => {
             <p className='price-promo'>R$ {product.prices[0].price}</p>
             <p className='old-price' >R$ {product.prices[0].promo_price}</p>
             <p className='nome-produto'>{product.name}</p>
-           
-          </div>
+           </div>
         ))}
       </Slider>
     </div>

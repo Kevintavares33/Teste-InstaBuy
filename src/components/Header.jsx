@@ -2,14 +2,11 @@ import { FaCartShopping, FaListUl, FaUser } from "react-icons/fa6";
 import Logo from '..//assets/logo.png';
 import './Header.css';
 
+
 const Header = () => {
   return (
     <div className="header">
-      <div className="loc">
-        <p>Retirar em: Asa Norte, Campus Universitário Darcy Ribeiro Bloco A PMU I Sala AT 08/03 - AC UNB, Edificio CDT, Brasília - DF</p>
-      </div>
-      
-      <div className="logo-mercado-modelo">
+      <div className="conteiner-mercado">
         <div className="mercado-modelo">
           <img className="logo-mercado" src={Logo} alt="logo mercado" />
           <p>Supermercado <br/> Modelo</p>
