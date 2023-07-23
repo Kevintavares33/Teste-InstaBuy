@@ -36,15 +36,17 @@ const ProductCarousel = ({ products }) => {
 
   return (
     <div className="carousel-container">
-         <h2 id='ofertas'><img id='oferta-img' src={oferta} alt='oferta-img'/> Ofertas</h2>
+      <h2 id='ofertas'><img id='oferta-img' src={oferta} alt='oferta-img'/> Ofertas</h2>
       <Slider {...settings}>
         {products.map((product) => (
           <div className="carousel-item" key={product.id}>
             <img src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`} alt={product.name} />
-            <p className='price-promo'>R$ {product.prices[0].price}</p>
-            <p className='old-price' >R$ {product.prices[0].promo_price}</p>
+            <div className='price-promo'>
+              <span>R$ {product.prices[0].promo_price}</span>
+              <del>R$ {product.prices[0].price}</del>
+            </div>
             <p className='nome-produto'>{product.name}</p>
-           </div>
+          </div>
         ))}
       </Slider>
     </div>
@@ -52,5 +54,3 @@ const ProductCarousel = ({ products }) => {
 };
 
 export default ProductCarousel;
-
-

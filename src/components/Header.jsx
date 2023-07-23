@@ -1,7 +1,7 @@
+import { AiOutlineSearch } from 'react-icons/ai';
 import { FaCartShopping, FaListUl, FaUser } from "react-icons/fa6";
 import Logo from '..//assets/logo.png';
 import './Header.css';
-
 
 const Header = () => {
   return (
@@ -9,10 +9,13 @@ const Header = () => {
       <div className="conteiner-mercado">
         <div className="mercado-modelo">
           <img className="logo-mercado" src={Logo} alt="logo mercado" />
-          <p>Supermercado <br/> Modelo</p>
+          <p className="supermercado-paragrafo">Supermercado <br/> Modelo</p>
         </div>
-      
-        <input type="text" placeholder="O que você Procura Hoje?" />
+       
+        <div className="search-input">
+         <AiOutlineSearch className="search-icon" style={{ fontSize: '25px' }} />
+         <input type="text" id="busca" placeholder="O que você procura?" aria-required="true" />
+        </div>
       
         <div className="buttons">
           <a className='button' href="./">

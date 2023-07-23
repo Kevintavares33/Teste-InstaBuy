@@ -27,14 +27,40 @@
 
 .mercado-modelo p {
   font-size: 16px;
-  font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.3;
+  
 }
 
-input[type="text"] {
-  padding: 8px;
-  font-size: 16px;
+.supermercado-paragrafo{
+  font-weight: 400;
 }
+
+
+.search-input {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  size: 50px;
+  right:90px ;
+  top: 50%;
+  left: 5px; 
+  transform: translateY(-50%);
+  color: #181818;
+}
+
+#busca {
+  width: 200px; 
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  background-color: #f3f3f3;
+  border: 0.3px solid #ebebeb;
+  color: var(--ib-colors-background-input-on);
+}
+
 
 .buttons {
   display: flex;

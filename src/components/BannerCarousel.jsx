@@ -23,8 +23,7 @@ const BannerCarousel = ({ banners }) => {
       <Slider {...settings}>
         {banners.map((banner) => (
           <div key={banner.id}>
-            <img
-              src={`https://assets.instabuy.com.br/ib.store.banner/bnr-${banner.image}`}
+            <img src={`https://assets.instabuy.com.br/ib.store.banner/bnr-${banner.image}`}
               alt={banner.title}
               className="banner-image"
             />
