@@ -10,7 +10,7 @@ const ProductCarousel = ({ products }) => {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    centerMode: true, 
+    centerMode: true,
     centerPadding: '20px',
     responsive: [
       {
@@ -36,7 +36,10 @@ const ProductCarousel = ({ products }) => {
 
   return (
     <div className="carousel-container">
-      <h2 id='ofertas'><img id='oferta-img' src={oferta} alt='oferta-img'/> Ofertas</h2>
+     <h2 id='ofertas'>
+     <img id='oferta-img' src={oferta} alt='oferta-img' className="overlay-color" />
+        Ofertas
+      </h2>
       <Slider {...settings}>
         {products.map((product) => (
           <div className="carousel-item" key={product.id}>

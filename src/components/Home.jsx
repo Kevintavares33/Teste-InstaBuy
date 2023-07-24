@@ -35,12 +35,13 @@ const Home = () => {
 
   return (
     <div className="container-elementos">
-      <Loc/>
-      <Header/>
-      <Nav/>
+      <Loc />
+      <Header />
+      <Nav />
       <BannerCarousel banners={banners} />
       <ProductCarousel products={products} />
       <CollectionItems collectionItems={collectionItems} />
+     
     </div>
   );
 };

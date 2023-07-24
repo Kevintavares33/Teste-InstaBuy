@@ -73,4 +73,9 @@
   height: 2rem;
   color: #43b02a;
   margin-right: 5px;
+  filter: sepia(100%);
+}
+.overlay-color {
+  filter:#43b02a; 
+
 }
