@@ -1,11 +1,14 @@
 
 
-
-    return (
-      <div className="product-container">
+const ProductScreen = () => {
+  return (
+    <div className="product-container">
+    
     <h1>product screen</h1>
-      </div>
-    );
-
+    
+    </div>
   
-  export default ProductScreen;
+  )
+}
+
+export default ProductScreen;

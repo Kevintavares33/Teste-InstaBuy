@@ -2,16 +2,17 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import oferta from '..//assets/oferta.png';
+import raioo from '..//assets/raioo.png';
 import './ProductCarousel.css';
 
-const ProductCarousel = ({ products }) => {
+const ProductCarousel  = ({ products }) => {
   const settings = {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '20px',
+    arrow: true, 
     responsive: [
       {
         breakpoint: 768,
@@ -37,7 +38,7 @@ const ProductCarousel = ({ products }) => {
   return (
     <div className="carousel-container">
      <h2 id='ofertas'>
-     <img id='oferta-img' src={oferta} alt='oferta-img' className="overlay-color" />
+     <img id='oferta-img' src={raioo} alt='oferta-img' className="overlay-color" />
         Ofertas
       </h2>
       <Slider {...settings}>

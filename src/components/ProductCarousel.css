@@ -69,13 +69,14 @@
 }
 
 #oferta-img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   color: #43b02a;
   margin-right: 5px;
-  filter: sepia(100%);
 }
-.overlay-color {
-  filter:#43b02a; 
-
+.carousel-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative; 
 }
