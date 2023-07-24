@@ -1,18 +1,21 @@
 import React from "react";
-import {Route, Switch } from 'react-router-dom';
+import {Route, Routes, Switch } from 'react-router-dom';
+import ProductScreen from "./components/ProductScreen";
+import Home from "./components/Home";
 
 
-export default () => {
+const RoutesTeste = () => {
 
 return(
-    <Switch>
-        <Route exact path="/">
-        </Route>
-        <Route exact path="/ProductScreen">
-        </Route>
+    <Routes>
+        <Route exact path="/" element={<Home />}/>
+        
+        <Route path="/p/:id/" element={<ProductScreen />} />
     
     
-    </Switch>
+    </Routes>
 )
 
 }
+
+export default RoutesTeste

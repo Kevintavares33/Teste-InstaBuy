@@ -1,11 +1,12 @@
 import React from 'react';
-import Home from './components/Home';
+
+import RoutesTeste from './Routes';
 
 
 const App = () => {
   return (
 <>
-<Home/>
+<RoutesTeste/>
 </>
   );
 }

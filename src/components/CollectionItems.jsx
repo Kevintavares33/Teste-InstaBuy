@@ -3,8 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import './CollectionItems.css';
+import { useNavigate } from 'react-router-dom';
 
 const CollectionItems = ({ collectionItems }) => {
+  const navigate = useNavigate();
+
   const settings = {
     infinite: true,
     slidesToShow: 4,
@@ -69,7 +72,7 @@ const CollectionItems = ({ collectionItems }) => {
           <h2>Kit Churrasco</h2>
           <Slider {...kitChurrascoSettings}>
             {kitChurrasco.items.map((product) => (
-              <div className="items" key={product.id}>
+              <div className="items" onClick={() => navigate({ pathname: `/p/${product.slug}}` })} key={product.id}>
                 <img
                   src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`}
                   alt={product.name}/>
@@ -86,7 +89,7 @@ const CollectionItems = ({ collectionItems }) => {
           <h2>{category.title}</h2>
           <Slider {...settings}>
             {category.items.map((product) => (
-              <div className="items" key={product.id}>
+              <div className="items" onClick={() => navigate({ pathname: `/p/${product.slug}}` })} key={product.id}>
                 <img src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`} alt={product.name}/>
                 <p className='price' >R$ {product.prices[0].price}</p>
                 <p className='nome-produto'>{product.name}</p>
