@@ -1,6 +1,7 @@
 import { AiOutlineSearch } from 'react-icons/ai';
-import { FaCartShopping, FaListUl, FaUser } from "react-icons/fa6";
+import { FaListUl, FaUser } from "react-icons/fa6";
 import Logo from '..//assets/logo.png';
+import Carrinho from './Carrinho';
 import './Header.css';
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
           <a className='button' href="./">
             <button className="my-list-button"><FaListUl/><span> Lista</span></button>
             <button className="my-account-button"><FaUser/><span> Minha Conta</span></button>
-            <button className="cart-button" id="carrinho-icon"><FaCartShopping/><span> Carrinho</span></button>
+            <Carrinho/>
           </a>
         </div>
       </div>

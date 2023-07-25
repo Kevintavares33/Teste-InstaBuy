@@ -41,7 +41,6 @@ const Home = () => {
       <BannerCarousel banners={banners} />
       <ProductCarousel products={products} />
       <CollectionItems collectionItems={collectionItems} />
-     
     </div>
   );
 };

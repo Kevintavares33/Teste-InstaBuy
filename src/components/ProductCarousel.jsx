@@ -1,10 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import raioo from '..//assets/raioo.png';
 import './ProductCarousel.css';
-import { useNavigate } from 'react-router-dom';
 
 const ProductCarousel = ({ products }) => {
   const navigate = useNavigate();

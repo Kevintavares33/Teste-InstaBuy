@@ -1,7 +1,10 @@
 
-import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Header from './Header';
+import Loc from './Loc';
+import Nav from './Nav';
 
 const BASE_URL = 'https://api.instabuy.com.br/apiv3/';
 
@@ -28,11 +31,17 @@ const ProductScreen = () => {
   }
 
   return (
+    <>
+    <Loc/>
+    <Header/>
+    <Nav/>
+   
     <div className="product-container">
       <h1>{product.name}</h1>
       <p>Vai dar certo {product.price}</p>
       
     </div>
+    </>
   );
 };
 
