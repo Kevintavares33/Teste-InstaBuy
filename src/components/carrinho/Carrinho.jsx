@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
-import { useCar } from '../carcontext/CarContext';
-import '../carrinho/Carrinho.css';
+import { useCar } from '../CarContext/CarContext';
+import './Carrinho.css';
 
 const Carrinho = () => {
   const { carItems } = useCar();

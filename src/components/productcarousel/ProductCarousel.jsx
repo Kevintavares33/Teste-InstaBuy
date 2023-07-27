@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import raioo from '../../assets/raioo.png';
-import '../productcarousel/ProductCarousel.css';
+import './ProductCarousel.css';
 
 const ProductCarousel = ({ products }) => {
   const navigate = useNavigate();

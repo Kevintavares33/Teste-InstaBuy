@@ -2,6 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #fff;
 }
 
 .carousel-item {
@@ -79,4 +80,21 @@
   margin: 0 auto;
   padding: 20px;
   position: relative; 
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+ 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(20, 155, 47);
+  
+  
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  background-color: rgb(255, 255, 255);
 }

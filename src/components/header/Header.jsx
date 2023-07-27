@@ -1,8 +1,8 @@
 import { AiOutlineSearch } from 'react-icons/ai';
 import { FaListUl, FaUser } from 'react-icons/fa6';
 import Logo from '../../assets/logo.png';
-import '..///header/Header.css';
-import Carrinho from '../carrinho/Carrinho';
+import Carrinho from '../Carrinho/Carrinho';
+import './Header.css';
 
 const Header = () => {
   return ( 

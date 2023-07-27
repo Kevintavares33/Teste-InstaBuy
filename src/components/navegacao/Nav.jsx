@@ -1,7 +1,7 @@
 import { AiOutlineAppstore } from "react-icons/ai";
 import { IoHomeOutline, IoPricetagsOutline } from "react-icons/io5";
 import kit from '../../assets/kit.jpeg';
-import '../navegacao/Nav.css';
+import './Nav.css';
 
 const Nav = () => {
   return (
