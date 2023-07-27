@@ -1,21 +1,24 @@
-import React from "react";
-import {Route, Routes, Switch } from 'react-router-dom';
-import ProductScreen from "./components/ProductScreen";
-import Home from "./components/Home";
-
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from '..//src/components/home/Home';
+import ProductScreen from '..//src/components/productscreen/ProductScreen';
+import { CarProvider } from '../src/components/carcontext/CarContext';
 
 const RoutesTeste = () => {
-
-return(
+  return (
     <Routes>
-        <Route exact path="/" element={<Home />}/>
-        
-        <Route path="/p/:id/" element={<ProductScreen />} />
-    
-    
+      <Route exact path="/" element={<Home />} />
+      <Route path="/p/:id/" element={<ProductScreen />} />
     </Routes>
-)
+  );
+};
 
-}
+const RoutesWrapper = () => {
+  return (
+    <CarProvider>
+      <RoutesTeste />
+    </CarProvider>
+  );
+};
 
-export default RoutesTeste
+export default RoutesWrapper;

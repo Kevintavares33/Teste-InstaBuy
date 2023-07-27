@@ -1,16 +1,17 @@
 .header {
-  display:flex;
+  display: flex;
   flex-direction: column;
   background-color: #ffffff;
   padding: 10px;
-  max-width: 900px;
-  margin-left: 190px;
+  width: 100%;
+ 
 }
 
 .conteiner-mercado {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 120px;
 }
 
 .mercado-modelo {
@@ -28,13 +29,11 @@
 .mercado-modelo p {
   font-size: 16px;
   line-height: 1.3;
-  
 }
 
-.supermercado-paragrafo{
+.supermercado-paragrafo {
   font-weight: 400;
 }
-
 
 .search-input {
   position: relative;
@@ -44,15 +43,15 @@
 .search-icon {
   position: absolute;
   size: 50px;
-  right:90px ;
+  right: 90px;
   top: 50%;
-  left: 5px; 
+  left: 5px;
   transform: translateY(-50%);
   color: #181818;
 }
 
 #busca {
-  width: 200px; 
+  width: 200px;
   padding: 8px 30px;
   font-size: 16px;
   font-weight: lighter;
@@ -60,7 +59,6 @@
   border: 0.3px solid #ebebeb;
   color: var(--ib-colors-background-input-on);
 }
-
 
 .buttons {
   display: flex;
@@ -74,6 +72,7 @@ a {
 
 button {
   padding: 8px 15px;
+  padding-right: 50%;
   font-size: 16px;
   background-color: #f5f5f5;
   border: 1px solid #ccc;
@@ -85,10 +84,18 @@ button:not(:last-child) {
   margin-right: 10px;
 }
 
-
 button.my-list-button:hover,
 button.my-account-button:hover,
 button.cart-button:hover {
   background-color: #dedede;
   color: #fff;
+}
+
+.buttons {
+  padding-right: 10%;
+  
+}
+ .my-list-button{
+  margin-right: 6 30px;
+ 
 }

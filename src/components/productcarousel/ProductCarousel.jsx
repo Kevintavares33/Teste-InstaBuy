@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import raioo from '..//assets/raioo.png';
-import './ProductCarousel.css';
+import raioo from '../../assets/raioo.png';
+import '../productcarousel/ProductCarousel.css';
 
 const ProductCarousel = ({ products }) => {
   const navigate = useNavigate();
@@ -46,7 +46,7 @@ const ProductCarousel = ({ products }) => {
       </h2>
       <Slider {...settings}>
         {products.map((product) => (
-          <div className="carousel-item" onClick={() => navigate({ pathname: `/p/${product.slug}}` })} key={product.id}>
+          <div className="carousel-item" onClick={() => navigate({ pathname: `/p/${product.slug}` })} key={product.id}>
             <img src={`https://assets.instabuy.com.br/ib.item.image.medium/m-${product.images[0]}`} alt={product.name} />
             <div className='price-promo'>
               <span>R$ {product.prices[0].promo_price}</span>

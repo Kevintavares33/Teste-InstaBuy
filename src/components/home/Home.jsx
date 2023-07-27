@@ -1,12 +1,12 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import BannerCarousel from './BannerCarousel';
-import CollectionItems from './CollectionItems';
-import Header from './Header';
-import './Home.css';
-import Loc from './Loc';
-import Nav from './Nav';
-import ProductCarousel from './ProductCarousel';
+import BannerCarousel from '..//banners/BannerCarousel';
+import CollectionItems from '..//collectionitems/CollectionItems';
+import Header from '../header/Header';
+import '../home/Home.css';
+import Loc from '../localizacao/Loc';
+import Nav from '../navegacao/Nav';
+import ProductCarousel from '../productcarousel/ProductCarousel';
 
 const BASE_URL = 'https://api.instabuy.com.br/apiv3/';
 

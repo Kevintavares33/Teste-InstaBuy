@@ -1,0 +1,85 @@
+.screen-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: rgba(255, 253, 253, 0.71);
+}
+
+.screen-product {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center; /* Novo ajuste */
+  margin-top: 50px; /* Novo ajuste */
+}
+
+.screen-product-image {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 20px; /* Novo ajuste */
+}
+
+.screen-product-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px; /* Novo ajuste */
+}
+
+.screen-product-name {
+  font-size: 26px;
+  max-width: 700px;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.screen-product-price {
+  font-size: 26px;
+  max-width: 400px;
+  font-weight: bold;
+  color: #e91e63;
+  margin-top: 10px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-btn {
+  font-size: 24px;
+  background-color: #2baa38;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-display {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.car-btn-screen {
+  display: flex;
+  align-items: center;
+  background-color: #2baa38;
+  margin-left:0px;
+  margin-top: 19px ;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.screen-product-description{
+  margin-top: 28px;
+  margin-right:240px;
+  margin-left: 90px;
+  padding: 15px;
+}
