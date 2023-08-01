@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
-import { useCar } from '../CarContext/CarContext';
+import { useCar } from '../carcontext/CarContext';
 import './Carrinho.css';
 
 const Carrinho = () => {

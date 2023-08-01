@@ -2,10 +2,10 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { useParams } from 'react-router-dom';
-import { useCar } from '../CarContext/CarContext';
-import Header from '../Header/Header';
-import Loc from '../Localizacao/Loc';
-import Nav from '../Navegacao/Nav';
+import { useCar } from '../carcontext/CarContext';
+import Header from '../header/Header';
+import Loc from '../localizacao/Loc';
+import Nav from '../navegacao/Nav';
 import './ProductScreen.css';
 
 const BASE_URL = 'https://api.instabuy.com.br/apiv3/';

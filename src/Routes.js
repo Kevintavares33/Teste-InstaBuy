@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { CarProvider } from './components/CarContext/CarContext';
-import Home from './components/Home/Home';
-import ProductScreen from './components/ProductScreen/ProductScreen';
+import { CarProvider } from './components/carcontext/CarContext';
+import Home from './components/home/Home';
+import ProductScreen from './components/productscreen/ProductScreen';
 
 const RoutesTeste = () => {
   return (
