@@ -1,6 +1,6 @@
 # Supermercado Modelo
-# Click Aqui!
-https://teste-insta-buy.vercel.app/
+<a href='https://teste-insta-buy.vercel.app/'>Click Aqui!</a>
+
 
 ## Descrição
 Olá, seja Bem vindo ao meu Projeto de seleção para Instabuy, para a vaga de Front-End Jr.
