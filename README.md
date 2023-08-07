@@ -1,5 +1,5 @@
 # Supermercado Modelo
-<a href='https://teste-insta-buy.vercel.app/'>Click Aqui Para abrir o Projeto!</a>
+<a href='https://teste-insta-buy.vercel.app/'>Click Aqui!</a>
 
 
 ## Descrição
