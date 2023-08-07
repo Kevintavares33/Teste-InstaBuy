@@ -15,7 +15,7 @@ React.js , javaScript , Html, Css3 , Node.js, Axios e NPM
 
 
 ## Autor
-Dev. Kevin Tavares
+Dev. Kevin Tavares.
 
 # Rodando o projeto!
 Para rodar o projeto , basta clonar este repositorio : https://github.com/Kevintavares33/Teste-InstaBuy 
