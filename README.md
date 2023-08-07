@@ -11,7 +11,7 @@ O projeto contém a tela Home, onde os produtos tem nome descrição e preço, c
 Após clicar em qualquer item, será aberta a tela ProductScreen, onde poderá adicionar ao carrinho o produto, pelo botão adicionar.
 
 ## Tecnologias Utilizadas
-React.js , javaScript , Html, Css , Node.js, Axios e NPM
+React.js , javaScript , Html, Css3 , Node.js, Axios e NPM
 
 
 ## Autor
