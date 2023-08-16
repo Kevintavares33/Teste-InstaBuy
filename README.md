@@ -3,7 +3,7 @@
 
 
 ## Descrição
-Olá, seja Bem vindo ao meu Projeto de seleção para Instabuy, para a vaga de Front-End Jr.
+Olá, seja Bem vindo ao meu Projeto e-commerce para Instabuy.
 Ultilizei o React.js para criar a aplicação e  Axios para consumir a Api.
 
 ## Funcionalidades Principais
