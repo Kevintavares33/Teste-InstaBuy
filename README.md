@@ -21,4 +21,4 @@ Dev. Kevin Tavares
 Para rodar o projeto , basta clonar este repositorio : https://github.com/Kevintavares33/Teste-InstaBuy 
 e abrir o arquivo index.html da pasta  build.
 
-![Uploading instabuy.png…]()
+
